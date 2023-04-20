@@ -114,15 +114,15 @@
 			]
 		},
 		{
-			"name": "Cars",
+			"name": "Appointments",
 			"item": [
 				{
-					"name": "GET all cars (unprotected)",
+					"name": "GET all appointments (unprotected)",
 					"request": {
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://127.0.0.1:8000/api/cars/all/",
+							"raw": "http://127.0.0.1:8000/api/appointments/all/",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -133,7 +133,7 @@
 							"port": "8000",
 							"path": [
 								"api",
-								"cars",
+								"appointments",
 								"all",
 								""
 							]
@@ -142,7 +142,7 @@
 					"response": []
 				},
 				{
-					"name": "GET cars for user (protected)",
+					"name": "GET appointments for user (protected)",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -165,7 +165,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://127.0.0.1:8000/api/cars/",
+							"raw": "http://127.0.0.1:8000/api/appointments/",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -176,7 +176,7 @@
 							"port": "8000",
 							"path": [
 								"api",
-								"cars",
+								"appointments",
 								""
 							]
 						}
@@ -184,7 +184,7 @@
 					"response": []
 				},
 				{
-					"name": "POST new car for user (protected)",
+					"name": "POST new appointment for user (protected)",
 					"request": {
 						"method": "POST",
 						"header": [
@@ -204,7 +204,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://127.0.0.1:8000/api/cars/",
+							"raw": "http://127.0.0.1:8000/api/appointments/",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -215,7 +215,7 @@
 							"port": "8000",
 							"path": [
 								"api",
-								"cars",
+								"appointments",
 								""
 							]
 						}

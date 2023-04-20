@@ -6,7 +6,7 @@ from authentication.models import User
 # <<<<<<<<<<<<<<<<< EXAMPLE FOR STARTER CODE USE <<<<<<<<<<<<<<<<<
 
 
-class Car(models.Model):
+class Appointment(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     make = models.CharField(max_length=30)
     model = models.CharField(max_length=100)
