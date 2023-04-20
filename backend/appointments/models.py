@@ -8,6 +8,6 @@ from authentication.models import User
 
 class Appointment(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
-    make = models.CharField(max_length=30)
-    model = models.CharField(max_length=100)
-    year = models.IntegerField()
+    name = models.CharField(max_length=30)
+    description = models.CharField(max_length=100)
+    date = models.DateField()
