@@ -7,5 +7,5 @@ from .models import Appointment
 class AppointmentSerializer(serializers.ModelSerializer):
     class Meta:
         model = Appointment
-        fields = ['id', 'make', 'model', 'year', 'user_id']
+        fields = ['id', 'name', 'description', 'date', 'user']
         depth = 1
