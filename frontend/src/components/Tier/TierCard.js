@@ -3,7 +3,6 @@ const TierCard = ({
     price,
     details
 }) => {
-    console.log(details);
     return (
         <>
             <h2>{title}</h2>

@@ -5,5 +5,5 @@ from appointments import views
 
 urlpatterns = [
     path('', views.user_appointments),
-    path('all/', views.get_all_appointments),
+    # path('all/', views.get_all_appointments),
 ]
