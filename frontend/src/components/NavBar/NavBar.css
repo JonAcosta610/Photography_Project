@@ -16,6 +16,12 @@ li {
   padding: 1.5rem 2rem;
 }
 
+.navBarText {
+  color:white;
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+}
+
 .navBar button {
   background: transparent;
   border: 2px solid white;
