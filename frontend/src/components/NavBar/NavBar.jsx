@@ -12,14 +12,14 @@ const Navbar = () => {
       <ul>
         <li className="brand">
           <Link to="/" style={{ textDecoration: "none", color: "white" }}>
-            <b>React/Django JWT</b>
+            <b style={{fontFamily:"cursive"}}>Pics By Acosta</b>
           </Link>
         </li>
-        <li> <Link to="/"> Home </Link> </li>
-        <li> <Link to="/about"> About </Link> </li>
-        <li> <Link to="/packages"> Packages </Link> </li>
-        <li> <Link to="/bookings"> Book Me </Link> </li>
-        <li>
+        <li> <Link to="/" className="navBarText"> Home </Link> </li>
+        <li> <Link to="/about" className="navBarText"> About </Link> </li>
+        <li> <Link to="/packages" className="navBarText"> Packages </Link> </li>
+        <li> <Link to="/bookings" className="navBarText"> Book Me </Link> </li>
+        <li className="navBarText">
           {user ? (
             <button onClick={logoutUser}>Logout</button>
           ) : (
