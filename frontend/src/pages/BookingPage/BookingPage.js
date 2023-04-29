@@ -45,7 +45,7 @@ const BookingPage = () => {
           setAppointment(body)
         }
       };
-      console.log(events);
+
       return (
         <FullCalendar 
         plugins={[ dayGridPlugin, interactionPlugin ]}
@@ -59,7 +59,6 @@ const BookingPage = () => {
         }}
         editable
         selectable
-        // titleFormat={{year:'numeric', month:'2-digit', day:'2-digit'}}
         />
     )
 };
