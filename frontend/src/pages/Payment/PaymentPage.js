@@ -22,7 +22,7 @@ const PaymentPage = () => {
     
     return (
         <div 
-            style={{margin: "25%"}} 
+            style={{margin: "20%"}} 
             onClick={() => setPaywall(!paywall)}
         >
             <div style={{display: "flex", justifyContent: "space-evenly"}}>
